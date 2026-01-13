@@ -204,7 +204,7 @@
         "text_AGbeHM": {
           "type": "text",
           "settings": {
-            "text": "<p>FREE DELIVERY ALL OVER LEBANON</p>",
+            "text": "<p>FREE DELIVERY FOR ORDERS ABOVE 55$</p>",
             "text_color": "#ffffff",
             "heading_highlight_type": "underline-hand-drawn",
             "highlight_color": "#000000",
