@@ -52,9 +52,9 @@
         "text_size": 125,
         "letter_spacing": 0,
         "message_spacing": 25,
-        "bg_color": "#ffffff",
+        "bg_color": "#d43747",
         "gradient": "",
-        "color": "#000000",
+        "color": "#ffffff",
         "border_color": "#000000"
       }
     },

@@ -61,6 +61,16 @@
             ],
             "padding_bottom": 20
           }
+        },
+        "product_accordion_nUWrKD": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "What's Included?",
+            "heading_style": "font-body",
+            "accordion_text": "<ul><li>Frames</li><li>Small Frames</li><li>10 Characters</li><li>Led Lights</li><li>Free Customization</li></ul>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
         }
       },
       "block_order": [
@@ -69,7 +79,8 @@
         "custom_code_reedwi",
         "form",
         "custom_code_ytHzcJ",
-        "upsell"
+        "upsell",
+        "product_accordion_nUWrKD"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -113,6 +124,209 @@
         "type_style": "subheading-text",
         "tab_heading_size": 120,
         "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_multicolumn_NbpyLB": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_VmQw69": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step01-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "Choose Your Frame",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_hR99Kp": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step02-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "Upload Photos",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_w6NDji": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step04-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "We Craft It For You",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_VmQw69",
+        "image_hR99Kp",
+        "image_w6NDji"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "title": "Steps",
+        "heading_size": 120,
+        "text": "",
+        "text_size": 100,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "layout_mobile": "stacked",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_marquee_V7JHRN": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_AGbeHM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FREE DELIVERY ALL OVER LEBANON</p>",
+            "text_color": "#ffffff",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000",
+            "highlight_text_color": "#d43747",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_AGbeHM"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#d43747",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_multicolumn_KYTTmV": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_wxBWn8": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/changjing2-pc_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "EMOTIONAL VALUE",
+            "heading_size": 200,
+            "text": "<p>A home for your most precious memories.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_tGw444": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/pic1-pc_1_92a9a096-2304-4e58-99ef-1b1c20ec21ef.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "FULLY CUSTOMIZABLE",
+            "heading_size": 120,
+            "text": "<p>Photos, layouts, people, stories - made by you.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_8BijCU": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/02_1000x_2f2117c9-232d-4773-a0a2-7913c2a730ec.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "DISPLAY WITH MEANING",
+            "heading_size": 120,
+            "text": "<ul><li>Not hidden in albums, but displayed with pride.</li></ul>",
+            "text_size": 175,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_wxBWn8",
+        "image_tGw444",
+        "image_8BijCU"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "title": "",
+        "heading_size": 120,
+        "text": "",
+        "text_size": 100,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "layout_mobile": "carousel",
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
@@ -180,6 +394,9 @@
   "order": [
     "main",
     "related",
+    "section_multicolumn_NbpyLB",
+    "section_marquee_V7JHRN",
+    "section_multicolumn_KYTTmV",
     "icons"
   ]
 }
