@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -8,7 +17,7 @@
         "announcement-0": {
           "type": "text",
           "settings": {
-            "text": "<p>New customers save 10% with code WELCOME10</p>",
+            "text": "<p>FREE DELIVERY FOR ORDERS ABOVE 55$</p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -29,6 +38,7 @@
         "announcement-0"
       ],
       "settings": {
+        "width": "wrapper--full",
         "layout": "marquee",
         "show_top_border": false,
         "show_bottom_border": true,
@@ -123,6 +133,8 @@
         "menu_alignment": "left",
         "header_icons_as_text": false,
         "highlight_item": "Sale",
+        "enable_custom_badge": false,
+        "custom_badge_text": "10% OFF",
         "highlight_item_color": "#d02e2e",
         "header_transparent": false,
         "header_text_color": "white",
