@@ -217,7 +217,7 @@
             "text": "<p>FREE DELIVERY ALL OVER LEBANON</p>",
             "text_color": "#ffffff",
             "heading_highlight_type": "underline-hand-drawn",
-            "highlight_color": "#000",
+            "highlight_color": "#000000",
             "highlight_text_color": "#d43747",
             "icon_name": "none",
             "icon_color": "",
@@ -248,7 +248,7 @@
         "bg_color": "#d43747",
         "gradient": "",
         "color": "#ffffff",
-        "border_color": "#000",
+        "border_color": "#000000",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -332,6 +332,176 @@
         "padding_bottom": 60
       }
     },
+    "testy17_46LAKK": {
+      "type": "testy17",
+      "blocks": {
+        "testimonial_Hzqtpe": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Testimonial text</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_37rdBt": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Testimonial text</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_mdjjnz": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Testimonial text</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_9LM6DR": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Testimonial text</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_cL9Qia": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Testimonial text</p>",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Hzqtpe",
+        "testimonial_37rdBt",
+        "testimonial_mdjjnz",
+        "testimonial_9LM6DR",
+        "testimonial_cL9Qia"
+      ],
+      "name": "SS - Testimonials #17",
+      "settings": {
+        "body_gap": 60,
+        "body_gap_mobile": 20,
+        "content_padding_vertical": 30,
+        "content_padding_vertical_mobile": 20,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "stars_count": 5,
+        "stars_size": 18,
+        "review_before_text": "Excellent 4.7/5",
+        "review_after_text": "based on 147 reviews.",
+        "review_text_custom": false,
+        "review_text_font": "josefin_sans_n4",
+        "review_text_size": 14,
+        "review_text_size_mobile": 14,
+        "review_text_height": 130,
+        "heading": "<h2>Trusted by Customers</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 64,
+        "heading_size_mobile": 44,
+        "heading_height": 130,
+        "heading_mt": 8,
+        "heading_mt_mobile": 8,
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 12,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_mt": 36,
+        "button_mt_mobile": 24,
+        "button_padding_vertical": 12,
+        "button_padding_vertical_mobile": 12,
+        "button_padding_horizontal": 40,
+        "button_padding_horizontal_mobile": 40,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "slider_gap": 20,
+        "slider_gap_mobile": 16,
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "slide_content_padding_vertical": 16,
+        "slide_content_padding_vertical_mobile": 16,
+        "slide_content_padding_horizontal": 10,
+        "slide_content_padding_horizontal_mobile": 10,
+        "slide_content_radius": 16,
+        "slide_content_border_thickness": 0,
+        "slide_content_mt": 20,
+        "slide_content_mt_mobile": 20,
+        "slide_text_custom": false,
+        "slide_text_font": "josefin_sans_n4",
+        "slide_text_size": 14,
+        "slide_text_size_mobile": 14,
+        "slide_text_height": 150,
+        "slide_author_custom": false,
+        "slide_author_font": "josefin_sans_n4",
+        "slide_author_size": 14,
+        "slide_author_size_mobile": 14,
+        "slide_author_height": 150,
+        "slide_author_mt": 10,
+        "slide_author_mt_mobile": 8,
+        "arrow_size": 40,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_vertical_position": 50,
+        "arrow_vertical_position_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "stars_color": "#ffffff",
+        "review_text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#555555",
+        "button_border_color": "#B5B5B5",
+        "button_border_hover_color": "#555555",
+        "image_border_color": "#000000",
+        "slide_content_bg_color": "#FFFFFF",
+        "slide_content_border_color": "#000000",
+        "slide_text_color": "#000000",
+        "slide_author_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#000000",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "#d43747",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "icons": {
       "type": "section-icons-row",
       "blocks": {
@@ -397,6 +567,7 @@
     "section_multicolumn_NbpyLB",
     "section_marquee_V7JHRN",
     "section_multicolumn_KYTTmV",
+    "testy17_46LAKK",
     "icons"
   ]
 }
