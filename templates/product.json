@@ -53,15 +53,6 @@
             "padding_bottom": 20
           }
         },
-        "upsell": {
-          "type": "upsell",
-          "settings": {
-            "product_list": [
-              "led-light"
-            ],
-            "padding_bottom": 20
-          }
-        },
         "product_accordion_nUWrKD": {
           "type": "product_accordion",
           "settings": {
@@ -79,7 +70,6 @@
         "custom_code_reedwi",
         "form",
         "custom_code_ytHzcJ",
-        "upsell",
         "product_accordion_nUWrKD"
       ],
       "settings": {
@@ -468,20 +458,20 @@
         "review_text_color": "#ffffff",
         "heading_color": "#ffffff",
         "text_color": "#ffffff",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "#000000",
         "button_bg_hover_color": "#555555",
-        "button_border_color": "#B5B5B5",
+        "button_border_color": "#b5b5b5",
         "button_border_hover_color": "#555555",
         "image_border_color": "#000000",
-        "slide_content_bg_color": "#FFFFFF",
+        "slide_content_bg_color": "#ffffff",
         "slide_content_border_color": "#000000",
         "slide_text_color": "#000000",
         "slide_author_color": "#000000",
         "arrow_color": "#000000",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#FFFFFF",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
         "arrow_bg_hover_color": "#000000",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
