@@ -12,6 +12,13 @@
     "main": {
       "type": "product",
       "blocks": {
+        "custom_code_gi4MBA": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start !important;\n    gap: 12px;\n    margin: 20px 0;\n    text-align: center;\n    flex-direction: row;\n    flex-wrap: wrap;\n  }\n\n  .star-icons {\n    display: flex;\n    gap: 1px;\n    font-size: 20px;\n    color: #9E132B;\n    flex-shrink: 0;\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n  </div>\n  <div class=\"review-text\">\n   <strong>4.7</strong> based on <strong>1240+</strong> ratings\n  </div>\n</div>",
+            "padding_bottom": 20
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -22,11 +29,18 @@
             "padding_bottom": 20
           }
         },
+        "custom_code_reedwi": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<b>✨ Fully Personalized —</b> Add your own photos and characters to create a one-of-a-kind keepsake.\n<br><br>\n<b>🎁 The Perfect Gift — </b>Ideal for anniversaries, birthdays, Valentine’s Day..",
+            "padding_bottom": 20
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
             "show_labels": true,
-            "show_quantity": false,
+            "show_quantity": true,
             "show_payment_button": false,
             "enable_subscriptions_selectors": true,
             "padding_bottom": 20
@@ -35,13 +49,17 @@
         "upsell": {
           "type": "upsell",
           "settings": {
-            "product_list": [],
+            "product_list": [
+              "led-light"
+            ],
             "padding_bottom": 20
           }
         }
       },
       "block_order": [
+        "custom_code_gi4MBA",
         "title",
+        "custom_code_reedwi",
         "form",
         "upsell"
       ],
