@@ -65,6 +65,8 @@
     "cart_icon": "bag",
     "enable_cart_notes": true,
     "empty_cart_buttons": "",
+    "free_shipping_limit": "55",
+    "cart_custom_message_text": "",
     "cart_custom_message_color": "text-dark",
     "enable_accept_terms": false,
     "upsells_height": 100,
