@@ -331,45 +331,32 @@
         "testimonial_Hzqtpe": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "image": "shopify://shop_images/01_1000x_93012348-4bf6-4e5b-8b6c-16db96923561.webp",
+            "text": "<p><br/>I was scared the photos would look pixelated, but the quality is actually really sharp. Looks even better in real life.<br/><br/></p>",
+            "author": "Rana Baydoun"
           }
         },
         "testimonial_37rdBt": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "image": "shopify://shop_images/04_1000x_d3d8a0f8-5181-42f6-98ba-91f42f921e74.webp",
+            "text": "<p><br/>Ordered it as a gift and it delivered. Looks good, feels well made, and came exactly as shown<br/><br/></p>",
+            "author": "Jean Kalfayan"
           }
         },
         "testimonial_mdjjnz": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_9LM6DR": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_cL9Qia": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "image": "shopify://shop_images/02_1000x_a5c77a4d-d30d-428b-8e1f-40f6349ab5f9.webp",
+            "text": "<p><br/>Clean design, no overdesign. Just a well-made piece.<br/><br/></p>",
+            "author": "Daniel Kahwaji"
           }
         }
       },
       "block_order": [
         "testimonial_Hzqtpe",
         "testimonial_37rdBt",
-        "testimonial_mdjjnz",
-        "testimonial_9LM6DR",
-        "testimonial_cL9Qia"
+        "testimonial_mdjjnz"
       ],
       "name": "SS - Testimonials #17",
       "settings": {
@@ -381,7 +368,7 @@
         "content_horizontal_align_mobile": "center",
         "stars_count": 5,
         "stars_size": 18,
-        "review_before_text": "Excellent 4.7/5",
+        "review_before_text": "Excellent 4.8/5",
         "review_after_text": "based on 147 reviews.",
         "review_text_custom": false,
         "review_text_font": "josefin_sans_n4",
@@ -519,7 +506,7 @@
           "settings": {
             "icon_name": "star",
             "title": "5 Stars Rated",
-            "text": "<p>by 5000+ customers</p>"
+            "text": "<p>by 140+ customers</p>"
           }
         }
       },
