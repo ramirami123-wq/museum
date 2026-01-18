@@ -1,0 +1,553 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "custom_code_gi4MBA": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start !important;\n    gap: 12px;\n    margin: 20px 0;\n    text-align: center;\n    flex-direction: row;\n    flex-wrap: wrap;\n  }\n\n  .star-icons {\n    display: flex;\n    gap: 1px;\n    font-size: 20px;\n    color: #9E132B;\n    flex-shrink: 0;\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n  </div>\n  <div class=\"review-text\">\n   <strong>4.7</strong> based on <strong>1240+</strong> ratings\n  </div>\n</div>",
+            "padding_bottom": 20
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "custom_code_reedwi": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<b>✨ Fully Personalized —</b> Add your own photos and characters to create a one-of-a-kind keepsake.\n<br><br>\n<b>🖼️ Premium 20×30 cm Frame —</b> Sharp, high-quality images in a luxurious, gift-worthy finish.",
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": false,
+            "padding_bottom": 20
+          }
+        },
+        "custom_code_ytHzcJ": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_nUWrKD": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "What's Included?",
+            "heading_style": "font-body",
+            "accordion_text": "<ul><li>Frames</li><li>Small Frames</li><li>Led Lights</li><li>Free Customization</li><li>7 pictures</li><li>Luxury Packaging</li></ul>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "custom_code_gi4MBA",
+        "title",
+        "custom_code_reedwi",
+        "form",
+        "custom_code_ytHzcJ",
+        "product_accordion_nUWrKD"
+      ],
+      "custom_css": [
+        ".product__submit__buttons {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "You May Also Like",
+            "product_recommendations_limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "title": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "columns_mobile": "1",
+        "type_style": "subheading-text",
+        "tab_heading_size": 120,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_multicolumn_NbpyLB": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_VmQw69": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step01-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "Choose Your Frame",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_hR99Kp": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step02-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "Upload Photos",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_w6NDji": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/step04-pc-0_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "We Craft It For You",
+            "heading_size": 120,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_VmQw69",
+        "image_hR99Kp",
+        "image_w6NDji"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "title": "Steps",
+        "heading_size": 120,
+        "text": "",
+        "text_size": 100,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "layout_mobile": "stacked",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_marquee_V7JHRN": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_AGbeHM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FREE DELIVERY FOR ORDERS ABOVE 55$</p>",
+            "text_color": "#ffffff",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "#d43747",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_AGbeHM"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#d43747",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_multicolumn_KYTTmV": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_wxBWn8": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/changjing2-pc_1.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "EMOTIONAL VALUE",
+            "heading_size": 200,
+            "text": "<p>A home for your most precious memories.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_tGw444": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/pic1-pc_1_92a9a096-2304-4e58-99ef-1b1c20ec21ef.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "FULLY CUSTOMIZABLE",
+            "heading_size": 200,
+            "text": "<p>Photos, layouts, people, stories - made by you.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "image_8BijCU": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/02_1000x_2f2117c9-232d-4773-a0a2-7913c2a730ec.png",
+            "aspect_ratio_desktop": 1.2,
+            "aspect_ratio_mobile": 1,
+            "title": "DISPLAY WITH MEANING",
+            "heading_size": 120,
+            "text": "<ul><li>Not hidden in albums, but displayed with pride.</li></ul>",
+            "text_size": 175,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_wxBWn8",
+        "image_tGw444",
+        "image_8BijCU"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "title": "More Than A Frame",
+        "heading_size": 130,
+        "text": "",
+        "text_size": 100,
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "testy17_46LAKK": {
+      "type": "testy17",
+      "blocks": {
+        "testimonial_Hzqtpe": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/01_1000x_93012348-4bf6-4e5b-8b6c-16db96923561.webp",
+            "text": "<p><br/>I was scared the photos would look pixelated, but the quality is actually really sharp. Looks even better in real life.<br/><br/></p>",
+            "author": "Rana Baydoun"
+          }
+        },
+        "testimonial_37rdBt": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/04_1000x_d3d8a0f8-5181-42f6-98ba-91f42f921e74.webp",
+            "text": "<p><br/>Ordered it as a gift and it delivered. Looks good, feels well made, and came exactly as shown<br/><br/></p>",
+            "author": "Jean Kalfayan"
+          }
+        },
+        "testimonial_mdjjnz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/02_1000x_a5c77a4d-d30d-428b-8e1f-40f6349ab5f9.webp",
+            "text": "<p><br/>Clean design, no overdesign. Just a well-made piece.<br/><br/></p>",
+            "author": "Daniel Kahwaji"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Hzqtpe",
+        "testimonial_37rdBt",
+        "testimonial_mdjjnz"
+      ],
+      "name": "SS - Testimonials #17",
+      "settings": {
+        "body_gap": 60,
+        "body_gap_mobile": 20,
+        "content_padding_vertical": 30,
+        "content_padding_vertical_mobile": 20,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "stars_count": 5,
+        "stars_size": 18,
+        "review_before_text": "Excellent 4.8/5",
+        "review_after_text": "based on 147 reviews.",
+        "review_text_custom": false,
+        "review_text_font": "josefin_sans_n4",
+        "review_text_size": 14,
+        "review_text_size_mobile": 14,
+        "review_text_height": 130,
+        "heading": "<h2>Trusted by Customers</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 64,
+        "heading_size_mobile": 44,
+        "heading_height": 130,
+        "heading_mt": 8,
+        "heading_mt_mobile": 8,
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 12,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_mt": 36,
+        "button_mt_mobile": 24,
+        "button_padding_vertical": 12,
+        "button_padding_vertical_mobile": 12,
+        "button_padding_horizontal": 40,
+        "button_padding_horizontal_mobile": 40,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "slider_gap": 20,
+        "slider_gap_mobile": 16,
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "slide_content_padding_vertical": 16,
+        "slide_content_padding_vertical_mobile": 16,
+        "slide_content_padding_horizontal": 10,
+        "slide_content_padding_horizontal_mobile": 10,
+        "slide_content_radius": 16,
+        "slide_content_border_thickness": 0,
+        "slide_content_mt": 20,
+        "slide_content_mt_mobile": 20,
+        "slide_text_custom": false,
+        "slide_text_font": "josefin_sans_n4",
+        "slide_text_size": 14,
+        "slide_text_size_mobile": 14,
+        "slide_text_height": 150,
+        "slide_author_custom": false,
+        "slide_author_font": "josefin_sans_n4",
+        "slide_author_size": 14,
+        "slide_author_size_mobile": 14,
+        "slide_author_height": 150,
+        "slide_author_mt": 10,
+        "slide_author_mt_mobile": 8,
+        "arrow_size": 40,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_vertical_position": 50,
+        "arrow_vertical_position_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "stars_color": "#ffffff",
+        "review_text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#555555",
+        "button_border_color": "#b5b5b5",
+        "button_border_hover_color": "#555555",
+        "image_border_color": "#000000",
+        "slide_content_bg_color": "#ffffff",
+        "slide_content_border_color": "#000000",
+        "slide_text_color": "#000000",
+        "slide_author_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#000000",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "#d43747",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "icons": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $55</p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase</p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "star",
+            "title": "5 Stars Rated",
+            "text": "<p>by 140+ customers</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "show_vertical_borders": true,
+        "show_horizontal_borders": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related",
+    "section_multicolumn_NbpyLB",
+    "section_marquee_V7JHRN",
+    "section_multicolumn_KYTTmV",
+    "testy17_46LAKK",
+    "icons"
+  ]
+}
