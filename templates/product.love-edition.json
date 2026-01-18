@@ -123,24 +123,6 @@
     "section_multicolumn_NbpyLB": {
       "type": "section-multicolumn",
       "blocks": {
-        "image_VmQw69": {
-          "type": "image",
-          "settings": {
-            "column_width": 25,
-            "image": "shopify://shop_images/step01-pc-0_1.png",
-            "aspect_ratio_desktop": 1.2,
-            "aspect_ratio_mobile": 1,
-            "title": "Choose Your Frame",
-            "heading_size": 120,
-            "text": "",
-            "text_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        },
         "image_hR99Kp": {
           "type": "image",
           "settings": {
@@ -163,7 +145,7 @@
           "type": "image",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/step04-pc-0_1.png",
+            "image": "shopify://shop_images/il_794xN.7546117164_r60t.avif",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
             "title": "We Craft It For You",
@@ -179,7 +161,6 @@
         }
       },
       "block_order": [
-        "image_VmQw69",
         "image_hR99Kp",
         "image_w6NDji"
       ],
