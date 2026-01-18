@@ -46,6 +46,28 @@
             "padding_bottom": 20
           }
         },
+        "ca_whatsapp_chat_order_button_whatsapp_order_button_RaVJ9D": {
+          "type": "shopify://apps/ca-whatsapp-chat-order-button/blocks/whatsappOrderButton/1779059c-3307-413f-8ccd-f5b78c49e230",
+          "settings": {
+            "button_text": "Order on WhatsApp",
+            "enable_out_of_stock_handling": false,
+            "out_of_stock_button_text": "Get Back in Stock Alert Via WhatsApp",
+            "message_text": "Hi, I would like to order this product:",
+            "whatsapp_number": "",
+            "show_icon": true,
+            "button_bg_color": "#1ea651",
+            "button_text_color": "#ffffff",
+            "button_border_radius": 5,
+            "button_padding": 13,
+            "button_height": 50,
+            "font_size": 14,
+            "button_width_mobile": 100,
+            "button_width_desktop": 100,
+            "button_alignment": "left",
+            "include_product_name": "url_only",
+            "enable_pixel": false
+          }
+        },
         "custom_code_ytHzcJ": {
           "type": "custom_code",
           "settings": {
@@ -69,6 +91,7 @@
         "title",
         "custom_code_reedwi",
         "form",
+        "ca_whatsapp_chat_order_button_whatsapp_order_button_RaVJ9D",
         "custom_code_ytHzcJ",
         "product_accordion_nUWrKD"
       ],
