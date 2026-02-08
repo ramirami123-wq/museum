@@ -46,6 +46,13 @@
             "padding_bottom": 20
           }
         },
+        "custom_code_Xhwrww": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div style=\"\n  background-color: #ffeef1;\n  border: 1px solid #ffccd5;\n  border-radius: 12px;\n  padding: 12px 16px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  max-width: 420px;\n  font-family: Arial, sans-serif;\n\">\n  <span style=\"font-size:18px;\">❤️</span>\n  <div>\n    <div style=\"font-weight: bold; font-size: 15px; color: #000;\">\n      Guaranteed Valentine's Day Delivery\n    </div>\n    <div style=\"font-size: 13px; color: #555;\">\n    </div>\n  </div>\n</div>",
+            "padding_bottom": 20
+          }
+        },
         "custom_code_ytHzcJ": {
           "type": "custom_code",
           "settings": {
@@ -69,6 +76,7 @@
         "title",
         "custom_code_reedwi",
         "form",
+        "custom_code_Xhwrww",
         "custom_code_ytHzcJ",
         "product_accordion_nUWrKD"
       ],
