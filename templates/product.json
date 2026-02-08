@@ -70,6 +70,16 @@
             "accordion_page": "",
             "padding_bottom": 20
           }
+        },
+        "product_accordion_q9zLPD": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Details",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Turn your love story into an art exhibition.</p><p><strong>Museum of Us™</strong> is a unique 3D DIY frame that transforms your relationship into a miniature museum. Inside the frame, your favorite memories become “artworks” displayed on the walls, while tiny figurines at the bottom look like visitors admiring your love story.</p><p>It’s more than a photo frame.</p><p>Perfect as:</p><ul><li>an anniversary gift</li><li>a Valentine’s Day surprise</li><li>a wedding or engagement keepsake</li><li>a meaningful DIY project for couples</li></ul><p>Each kit allows you to design your own museum exactly how you imagine it.</p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
         }
       },
       "block_order": [
@@ -79,7 +89,8 @@
         "form",
         "custom_code_Xhwrww",
         "custom_code_ytHzcJ",
-        "product_accordion_nUWrKD"
+        "product_accordion_nUWrKD",
+        "product_accordion_q9zLPD"
       ],
       "custom_css": [
         ".product__submit__buttons {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -138,12 +149,12 @@
           "type": "image",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/step01-pc-0_1.png",
+            "image": "shopify://shop_images/1step_1.png",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
-            "title": "Choose Your Frame",
-            "heading_size": 120,
-            "text": "",
+            "title": "Order & Personalize",
+            "heading_size": 200,
+            "text": "<p>Choose your Museum of Us and personalize it your way.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -156,12 +167,12 @@
           "type": "image",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/step02-pc-0_1.png",
+            "image": "shopify://shop_images/IMG_1254_1.png",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
-            "title": "Upload Photos",
-            "heading_size": 120,
-            "text": "",
+            "title": "Create Your Museum",
+            "heading_size": 200,
+            "text": "<p>Print your photos at any local print shop. It’s cheap, fast, and easy.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -174,12 +185,12 @@
           "type": "image",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/step04-pc-0_1.png",
+            "image": "shopify://shop_images/IMG_1255_1.png",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
-            "title": "We Craft It For You",
-            "heading_size": 120,
-            "text": "",
+            "title": "Gift It & Celebrate",
+            "heading_size": 200,
+            "text": "<p>Give it to your partner, watch their reaction, and celebrate your story together.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -196,15 +207,15 @@
       ],
       "name": "Multicolumn",
       "settings": {
-        "title": "Steps",
+        "title": "How it works",
         "heading_size": 120,
-        "text": "",
+        "text": "<p>Follow these simple steps to get started</p>",
         "text_size": 100,
         "align_heading": "text-center",
         "align_text": "text-center",
         "bg_color": "",
         "text_color": "text-dark",
-        "layout_mobile": "stacked",
+        "layout_mobile": "carousel",
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
