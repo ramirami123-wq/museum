@@ -550,6 +550,58 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "blocks_trJx4k": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e2bac76_ifp94e": {
+          "type": "ai_gen_block_e2bac76",
+          "settings": {
+            "section_title": "Frequently asked questions",
+            "section_title_size": 28,
+            "section_title_weight": "700",
+            "section_title_color": "#0b0b0b",
+            "section_title_alignment": "left",
+            "section_title_spacing": 30,
+            "desktop_width_percent": 100,
+            "section_padding_horizontal": 20,
+            "padding": 20,
+            "background_color": "#ffffff",
+            "hover_color": "#f7f6f4",
+            "border_color": "#000000",
+            "border_width": 1,
+            "border_radius": 8,
+            "title_color": "#0b0b0b",
+            "title_size": 16,
+            "title_weight": "600",
+            "content_color": "#0b0b0b",
+            "content_size": 14,
+            "icon_color": "#0b0b0b",
+            "icon_size": 24,
+            "item_1_title": "How does personalization work?",
+            "item_1_content": "<p><br/>After placing your order, you upload your photos.<br/><br/>We design the layout and prepare everything exactly to fit your frame.<br/><br/></p>",
+            "item_1_open": false,
+            "item_2_title": "Do the photos come printed?",
+            "item_2_content": "<p><strong>Only if you choose Professional Assembly.</strong><br/><br/>If you select the <strong>$10 assembly option</strong>, your photos are <strong>professionally printed and inserted</strong> before shipping<br/><br/></p>",
+            "item_2_open": false,
+            "item_3_title": "What if I don’t choose assembly?",
+            "item_3_content": "<p><br/>If you don’t add assembly, the frame is shipped <strong>unassembled and without printed photos</strong>.<br/><br/>You can easily print the photos at any local print shop or library and insert them yourself.<br/><br/></p>",
+            "item_3_open": false,
+            "item_4_title": "Why does the frame arrive unassembled?",
+            "item_4_content": "<p>Shipping the frame unassembled helps protect it during delivery and keeps costs lower for you.</p>",
+            "item_4_open": false,
+            "item_5_title": "Important Disclaimer",
+            "item_5_content": "<p>Museum of Us frames are shipped <strong>unassembled by default</strong>.</p><p>Photo <strong>printing and gluing/assembly are NOT included</strong> unless the customer <strong>selects and pays for the Professional Assembly add-on</strong> at checkout.</p><p>If the assembly option is <strong>not purchased</strong>, the customer is responsible for:</p><ul><li><br/>Printing the photos at any local print shop or library<br/></li><li><br/>Inserting and securing the photos inside the frame<br/></li></ul><p>By placing an order without the assembly add-on, the customer acknowledges that <strong>no photo printing or gluing will be provided</strong>.</p>",
+            "item_5_open": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e2bac76_ifp94e"
+      ],
+      "name": "Collapsible content",
+      "settings": {}
     }
   },
   "order": [
@@ -559,6 +611,7 @@
     "section_marquee_V7JHRN",
     "section_multicolumn_KYTTmV",
     "testy17_46LAKK",
-    "icons"
+    "icons",
+    "blocks_trJx4k"
   ]
 }
