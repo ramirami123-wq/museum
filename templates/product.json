@@ -266,57 +266,6 @@
         "padding_bottom": 60
       }
     },
-    "1770648208fd6981ea": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_e2bac76_7tY7dP": {
-          "type": "ai_gen_block_e2bac76",
-          "settings": {
-            "section_title": "Frequently asked questions",
-            "section_title_size": 28,
-            "section_title_weight": "700",
-            "section_title_color": "#0b0b0b",
-            "section_title_alignment": "left",
-            "section_title_spacing": 30,
-            "desktop_width_percent": 100,
-            "section_padding_horizontal": 20,
-            "padding": 20,
-            "background_color": "#ffffff",
-            "hover_color": "#f7f6f4",
-            "border_color": "#000000",
-            "border_width": 1,
-            "border_radius": 8,
-            "title_color": "#0b0b0b",
-            "title_size": 16,
-            "title_weight": "600",
-            "content_color": "#0b0b0b",
-            "content_size": 14,
-            "icon_color": "#0b0b0b",
-            "icon_size": 24,
-            "item_1_title": "Shipping information",
-            "item_1_content": "<p>Free shipping on orders over $55. Standard delivery takes 3-5 business days.</p>",
-            "item_1_open": false,
-            "item_2_title": "Returns and exchanges",
-            "item_2_content": "<p>We accept returns within 30 days of purchase. Items must be unworn and in original packaging.</p>",
-            "item_2_open": false,
-            "item_3_title": "Care instructions",
-            "item_3_content": "<p>Machine wash cold with like colors. Tumble dry low. Do not bleach or iron.</p>",
-            "item_3_open": false,
-            "item_4_title": "",
-            "item_4_content": "",
-            "item_4_open": false,
-            "item_5_title": "",
-            "item_5_content": "",
-            "item_5_open": false
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_e2bac76_7tY7dP"
-      ],
-      "settings": {}
-    },
     "section_multicolumn_KYTTmV": {
       "type": "section-multicolumn",
       "blocks": {
@@ -564,26 +513,17 @@
             "text": "<p>on all order over $55</p>"
           }
         },
-        "icon-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase</p>"
-          }
-        },
         "icon-2": {
           "type": "text",
           "settings": {
             "icon_name": "star",
             "title": "5 Stars Rated",
-            "text": "<p>by 140+ customers</p>"
+            "text": "<p>by 1800+ customers</p>"
           }
         }
       },
       "block_order": [
         "icon-0",
-        "icon-1",
         "icon-2"
       ],
       "settings": {
@@ -617,7 +557,6 @@
     "related",
     "section_multicolumn_NbpyLB",
     "section_marquee_V7JHRN",
-    "1770648208fd6981ea",
     "section_multicolumn_KYTTmV",
     "testy17_46LAKK",
     "icons"
