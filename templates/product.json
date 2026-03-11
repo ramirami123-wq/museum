@@ -66,7 +66,7 @@
           "settings": {
             "accordion_heading": "What's Included?",
             "heading_style": "font-body",
-            "accordion_text": "<ul><li>Frames</li><li>Small Frames</li><li>Led Lights</li><li>Free Customization</li><li>7 pictures</li><li>Luxury Packaging</li></ul>",
+            "accordion_text": "<ul><li>Mini Frames</li><li>Printed Pictures</li><li>Bubble wrap</li><li>Characters</li><li>Packaging bag</li></ul>",
             "accordion_page": "",
             "padding_bottom": 20
           }
@@ -152,9 +152,9 @@
             "image": "shopify://shop_images/1step_1.png",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
-            "title": "Order & Personalize",
+            "title": "Personalize it",
             "heading_size": 200,
-            "text": "<p>Choose your Museum of Us and personalize it your way.</p>",
+            "text": "<p>Upload Your Pictures & Pick ur frame</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -170,27 +170,9 @@
             "image": "shopify://shop_images/IMG_1254_1.png",
             "aspect_ratio_desktop": 1.2,
             "aspect_ratio_mobile": 1,
-            "title": "Create Your Museum",
+            "title": "We handle the rest",
             "heading_size": 200,
-            "text": "<p>Print your photos at any local print shop. It’s cheap, fast, and easy.</p>",
-            "text_size": 100,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        },
-        "image_w6NDji": {
-          "type": "image",
-          "settings": {
-            "column_width": 25,
-            "image": "shopify://shop_images/IMG_1255_1.png",
-            "aspect_ratio_desktop": 1.2,
-            "aspect_ratio_mobile": 1,
-            "title": "Gift It & Celebrate",
-            "heading_size": 200,
-            "text": "<p>Give it to your partner, watch their reaction, and celebrate your story together.</p>",
+            "text": "<p>We print, ship and fulfill your order.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -202,8 +184,7 @@
       },
       "block_order": [
         "image_VmQw69",
-        "image_hR99Kp",
-        "image_w6NDji"
+        "image_hR99Kp"
       ],
       "name": "Multicolumn",
       "settings": {
